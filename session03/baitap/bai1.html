@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dk{
+            background-color: rgb(241, 241, 141);
+            width: 400px;
+            padding: 20px;
+
+        }
+        .dk h2{
+            background-color: aqua;
+            padding: 10px;
+            text-align: center;
+        }
+        .dk label{
+            margin-right: 10px;
+        }
+        .dk input{
+            padding: 2px;
+            margin-right: 10px;
+            align-items: center;
+
+            
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div style= "background-color: pink;">
+        <h2 >Thông Tin Cá Nhân</h2>
+    <form>
+        <label for="name">Họ và Tên</label>
+        <input type="text" name="name" id="name"><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br>
+        
+        <div>
+
+        <label for="sothich" style="display: inline-block; position:relative;bottom: 10px;"  >Sở Thích </label>
+        <table style="display: inline-block;"  >
+            <tr >
+                <td><input type="checkbox" name="sothich" id="sothich">Thể Thao</td>
+                <td><input type="checkbox" name="sothich" id="sothich">Âm Nhạc</td>
+                <td><input type="checkbox" name="sothich" id="sothich">Đọc Sách</td>
+            </tr>
+        </table>
+        <table >
+            <tr >
+                <td ><input type="checkbox" name="sothich" id="sothich">Lướt Web</td>
+                <td><input type="checkbox" name="sothich" id="sothich">Chơi Game </td>
+                <td><input type="checkbox" name="sothich" id="sothich">Du lịch</td>
+            </tr>
+        </table>
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Nhập lại">
+    </div>
+    </div>
+
+
+    </form>
+    <p>--------------------------------------------------------------------</p>
+
+
+    <div class="dk">
+        <h2 >ĐĂNG KÍ HỌC VIÊN</h2>
+        <label for="name">Họ và Tên</label>
+        <input type="text" name="name" id="name"><br>
+
+        <label for="name">Ngày Sinh</label>
+        <input type="date" name="name" id="name"><br>
+
+        <label for="gioitinh">Giới Tính</label>
+        <input type="radio" name="gioitinh" id="gioitinh">Nam
+        <input type="radio" name="gioitinh" id="gioitinh">Nữ <br>
+
+        <label for="diachi">Địa chỉ</label>
+        <input type="text" name="diachi" id="diachi"><br>
+
+        <label for="class">Lớp</label>
+        <select name="class" id="class">
+            <option>---Chọn Lớp---</option>
+            <option>P2A</option>
+            <option>P2B</option>
+            <option>P2C</option>
+        </select><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br>
+        
+        <label for="dt">Điện thoại</label>
+        <input type="number" name="dt" id="dt"><br>
+        <button>Đăng Kí</button>
+        <button>Nhập Lại</button>
+
+    </div>
+
+</body>
+
+</html>

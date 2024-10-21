@@ -1,0 +1,57 @@
+<!-- FORM -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">  </form>
+    <!--action : là trích dẫn URl là nơi dữ liệu được gửi đến  -->   
+    
+    <!--Các thành phần trong Form
+    input : tạo 1 ô cho người nhập dữ liệu 
+    lable : là ô đi kèm với input
+    -->
+    <form action="" ><!-- autocomplate mặc định là on nó sẽ tự động hiển thị dữ liệu đã ghi trước đó -->
+        <label for="test">usename</label><!-- label có thuộc tính của for (Có thể đặt bất kì) -->
+        <input type="text"name="" id="test" >
+        <!-- id : dùng để định danh -->
+        <!--name : tên của ô inut (say này gửi dữ liệu lên sever thì phải kèm thuộc tính name)  -->
+        <!-- name : có thể truy xuất 1 số giá trị nhập vào -->
+        <!-- Nếu giá trị thuộc tính for của lable = thuộc tính id của input thì khi click vào label sẽ focus vào input -->
+         <!-- disable là vô hiệu hóa của thẻ input -->
+        <input type="datetime">
+        <input type="time">
+        <input type="password">
+        <input type="radio" name="1">Nam
+        <input type="radio" name="1">Nữ
+        <input type="radio" name="1">Khác 
+        <input type="email">
+        <input type="checkbox" nam >
+        <input type="search">Tìm kiếm
+        <button>click</button>
+        </form>
+        <p>---------------------------------</p>
+
+        <form action="">
+            <input type="text" required><br><!--  required Là bắt buộc phải nhập dữ liệu nếu muốn đi tiếp -->
+            <button type="button">click</button>
+
+            <select>
+                <option value="">Ronaldo</option>
+                <option value="">Messi</option>
+                <option value="">Xavi</option>
+            </select>
+            <!-- select sẽ đưa ra những lựa chọn -->
+            <textarea name="" id=""></textarea>
+            <!-- Nhập nhiều dữ liệu -->
+        </form>
+
+
+
+</body>
+</html>

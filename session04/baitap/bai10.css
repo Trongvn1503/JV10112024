@@ -1,0 +1,21 @@
+.container{
+    background-color: rgb(215, 229, 250);
+    padding-left: 10px;
+    line-height: 1;
+}
+
+div.noidung{
+    display: inline-block;
+}
+.fname{
+    float: left;
+    
+    
+}
+.lname{
+    float: right;
+}
+.email input{
+    width: 100%;
+}
+.thanhtoan{}

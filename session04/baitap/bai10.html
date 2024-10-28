@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 10</title>
+    <link rel="stylesheet" href="bai10.css">
+    <style>
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tieude">
+            <h2>Billing Address</h2>
+        </div>
+        <div class="noidung">
+            <div class="fname">
+                <label for="fname">First Name</label><br>
+                <input type="text" name="fname" id="fname">
+            </div>
+            <div class="lname">
+                <label for="lname">Last Name</label><br>
+                <input type="text" name="lname" id="lname">
+            </div><br>
+            <div class="email">
+        
+            <label for="uname">Username</label><br>
+            <input class="uname" type="email" name="uname" id="uname" placeholder=Username ><br>
+        
+            <label for="email">Email (Optional)</label><br>
+            <input type="email" name="email" id="email" placeholder=you@example.com><br>
+
+            <label for="address1">Address</label><br>
+            <input type="text" name="address1" id="address1" placeholder="1234 Main St"><br>
+
+            <label for="address2">Address 2 (Optional)</label><br>
+            <input type="text" name="address" id="address" placeholder="Apartment or suite"><br>
+        </div>
+
+            <label for="Country">Country</label><br>
+
+        <div class="nuooc">
+            <select name="Country" id="Country">
+                <option value="">Choose..</option>
+                <option value="">America</option>
+                <option value="">China</option>
+                <option value="">Germany</option>
+                <option value="">Japan</option>
+                <option value="">VietNam</option>
+            </select>
+
+            <label for="State">State</label>
+            <select name="State" id="State">
+                <option value="">Chose..</option>
+                <option value="">Tokyo</option>
+                <option value="">Hanoi</option>
+                <option value="">WasintonDC</option>
+                <option value="">Beijing</option>
+                <option value="">NinhBinh</option>
+
+            </select>
+            <label for="zip">zip</label><br>
+            <input type="number" name="zip" id="zip"><br>
+        </div>
+            <hr>
+            <label for="checkbox"></label>
+            <input type="checkbox" name="checkbox" id="checkbox"> Shipping address is the same as my billing address
+            <br>
+            <input type="checkbox" name="checkbox" id="checkbox"> Save this information for next time <br>
+            <hr>
+        </div>
+
+        <div class="thanhtoan">
+            <h3>Payment</h3>
+            <label for="payment"></label>
+            <input type="radio" name="payment" id="payment"> Credit card <br>
+            <input type="radio" name="payment" id="payment"> Debit card <br>
+            <input type="radio" name="payment" id="payment"> PayPal <br>
+
+            <label for="namecard">Name on card</label><br>
+            <input type="text" name="namecard" id="namecard"><br>
+
+            <label for="numcard">Credit card number</label><br>
+            <input type="number" name="numcard" id="numcard"><br>
+            <p>Full name as displayed on card</p>
+
+            <label for="Expiration">Expiration</label><br>
+            <input type="month"> <br>
+
+            <label for="CVV">CVV</label><br>
+            <input type="number" name="CVV" id="CVV">
+            <hr>
+
+
+
+        </div>
+        <div class="butoon">
+            <label for="butoon"></label>
+            <input type="button" value="Continue to Checkout">
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

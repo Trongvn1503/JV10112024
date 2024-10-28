@@ -1,0 +1,36 @@
+div{
+    color: red;/* Màu sắc */
+    /* value  có các dạng set màu*/
+   background:chartreuse ;  /* backgroud */
+   background-color: antiquewhite;/* màu nền */
+   background-size: kích thước nền;
+   background-position:đa;
+   background-image: ảnh nền;
+   background-repeat: không lặp lại ;
+   /* font */
+   font-size: 10px; /* kích cỡ */
+   font-weight: 10px;/*độ đậm nhạt  */
+   font-family: 'Times New Roman', Times, serif;/* kiểu chữ */
+   
+    
+    /* Căn chỉnh text */
+    
+    text-align: center;/* vị trí text giữa*/
+    text-align: left;/* vị trí text Trái */
+    text-align: right;/* vị trí text Phải*/
+    text-decoration:underline ;/* Gachj dưới */
+    text-decoration:line-through ;/* Gachj Ngang */
+    
+    text-transform: uppercase;/*Viết hoa, viết thường hết   */
+
+    width: Độ rộng;
+    height: Chiều cao;
+
+}
+div2{
+    /* BoxModel */
+    margin:0cm ;/* Khoảng cách giữa các element */
+    border:0cm ;/* Độ dày của viền */
+    padding: 5px;/* Khoangr cách từ bordel đến content */
+    content: 5px;/* Chiều rộng và chiều cao của khối */
+}

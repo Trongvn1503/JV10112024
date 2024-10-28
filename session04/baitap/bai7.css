@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    
+}
+.cabai{
+    background-color: aliceblue;
+    border: 1px solid ;
+
+}
+.tieude{
+    padding: 10px;
+    border-bottom: 1px solid
+}
+.thongbao{
+    background-color: white;
+    padding: 20px;
+}
+button{
+    background-color: DodgerBlue;
+    color: white;
+    padding: 5px;
+    border-color: dodgerblue;
+    border-radius: 5px;
+}
+.thoihan{
+    border-top: 1px solid;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .animation{
+            width: 200px;
+            height: 150px;
+            background-color: peru;
+            animation-name: chuyendong;/* Tên chuyển động */
+            animation-duration: 1s;/* Thời gian thực hiện hiệu ứng */
+            animation-delay: 0s;/*  Độ chễ của hiệu ứng */
+            animation-iteration-count: infinite;/* Chạy hiệu ứng liên tục */
+
+        }
+        @keyframes chuyendong { /* Bắt buộc phải có để chạy được animation */
+            0%{
+                background-color: palevioletred;
+            }
+            10%{
+                background-color: red; 
+            }
+        }
+        .vongquay{
+            width: 200px;
+            height: 200px;
+            border: 10px solid rgb(96, 96, 218);
+            border-radius: 50%;
+            border-right: 1px solid transparent;
+            animation: rotate 1s linear infinite;
+        }
+        @keyframes rotate {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+            
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="animation">
+
+    </div>
+
+    <div class="vongquay">
+
+
+    </div>
+
+
+
+</body>
+
+</html>

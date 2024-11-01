@@ -1,0 +1,41 @@
+.container{
+    height: 820px;
+    width: 1000px;
+    border: 5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.box{
+    height: 80px;
+    background-color: rgb(212, 90, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.box1{
+    width: 30%;
+}
+.box2{
+    width: 100%;
+}
+.box3{
+    width: 90%;
+}
+.box4{
+    width: 10%;
+}
+.box5{
+    width: 50%;
+}
+.box6{
+    width: 60%;
+}
+.box7{
+    width: 40%;
+}
+.box8{
+    width: 80%;
+}

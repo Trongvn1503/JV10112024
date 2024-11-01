@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .absolute{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+
+           
+        }
+        .boxcha{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(13, 20, 154);
+            position: relative;
+            top:100px
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(58, 222, 167);
+            position: absolute;
+            right: 2px;;
+          
+            /* ví dụ không chưa position trước đó */
+
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Đối với khối có position: absolute thì nó sẽ kiểm tra xem
+     có ông cha nào chứa nó có thuộc tính postion khác static thì sẽ 
+     lấy vị trí đó làm gốc
+     Nếu không thì có sẽ lấy màn hình trình duyệt làm gốc. -->
+     <div class="absolute">
+
+     </div>
+     <div class="boxcha">
+
+     </div>
+     <div class="box">
+ 
+     </div>
+</body>
+</html>

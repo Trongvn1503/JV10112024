@@ -1,0 +1,64 @@
+.container{
+    width: 1200px;
+    height: 1000px;
+    border: 5px solid rgb(52, 58, 64);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header{
+    height: 56px;
+    background-color:rgb(52, 58, 64);
+    color: aliceblue;
+    position: relative;
+}
+.headertext{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.nav{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+.doanchu{
+    text-align: center;
+}
+.but{
+
+}
+
+.phantren{
+    width: 250px;
+    height: 180px;
+    background-color:rgb(52, 58, 64);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phanduoi{
+    width: 250px;
+    height: 130px;
+    background-color: aliceblue;
+}
+.content1{
+    width: 1160px;
+    height: 650px;
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content2{
+    width: 1160px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

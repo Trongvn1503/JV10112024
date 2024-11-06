@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 6;
+        let result = ++a + a + a++ + ++a + a;
+        // result = 7 + 7 + 7 + 9 + 9 = 39
+        // ++a = 7(Tăng giá trị của a trước khi tính từ 6 lên 7)
+        // a = 7(lúc này a = 7)
+        // a++ = 7(Vẫn bằng 7 nhưng sau đó sẽ tăng lên thành 8)
+        // ++a = 9(lúc này a = 8 rồi tăng giá trị lên thành 9)
+        // a = 9(lúc này trả kết quả a=9)
+        // cộng hết lại kết quả ra 39
+        console.log(result)
+    </script>
+    
+</body>
+</html>

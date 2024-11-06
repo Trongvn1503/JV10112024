@@ -1,0 +1,1 @@
+alert("Cách 3 để nhập code vào html")

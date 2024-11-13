@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let array=[1,2,"xinchao",4,5,"konichiwa",7,8,"hello",10];
+        let integers = [];
+
+        for(let num of array){
+            if(Number.isInteger(num)){
+                integers.push(num);
+            }
+        }
+        if(integers){
+            console.log("Các phần tử là số nguyên trong mảng:", integers);
+        }else{
+            console.log("Trong mảng không tồn tại số nguyên");
+        }
+    </script>
+</body>
+</html>

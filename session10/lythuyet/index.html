@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Khai báo mảng
+        let array; 
+        // giá trị cuar biến array = underfined
+        //Khởi tạo giá trị cho mảng
+
+        array=[1,2,3,4,5,6,7,8,9,10];// danh sách số nguyên
+
+        let arrayString = ["chuoi","tao","le","dao"]// danh sách tên hoa quả
+        let arrayAdvance = new Array(4);
+        console.log(array);
+        console.log(arrayAdvance);
+        // Cách lấy giá trị từ vị trí : array[vị trí]
+        let phanTuViTriThu5 =array[6]
+        console.log(phanTuViTriThu5);
+
+        // Thay đổi giá trị
+        array[5]=100;// thay đổi giá trị thứ 5 trong array
+        console.log(array);
+
+        // Lấy ra độ dài mảng
+        let dodaicuamang = array.length
+        console.log(dodaicuamang);
+
+        //Thêm phần từ vào cuối mảng
+        let themphantu=array.push(1000)
+        console.log(themphantu);
+
+        // Bài toán duyệt mảng: in ra rá trị lần lượt từng giá trị trong mảng
+        // dùng for i
+        for(let i=0;i<array.length;i++){
+            console.log(`Phần tử tại ví trí ${i}=${array[1]}`);// Nối chuỗi theo kiểu literal string dùng dấu ``    
+        }
+        // ap dung In ra gias trij naof chia het cho 3
+
+        for(let i=0;i<=array.length;i++){
+            if(i%3==0){
+                console.log(i,"là số chia hết cho 3");
+                
+            }
+        }
+
+        // Cách duyệt thông qua giá trị
+        for (let value of array){
+            console.log("value=>>", value);
+            
+        }
+        // Các phương thức của mảng
+
+        //Chèn phẩn tử mới vào bảng
+        array.unshift();
+        //sau học hàm học sau
+        //array.filter();
+        //array.findIndex();
+        //array.forEach();
+
+        // Kiểm tra phần tử trong bảng
+        //array.includes();
+        let check = arrayString.includes("chuoi")
+        console.log(check);
+        
+        // lấy ra vụ trí theo giá trị
+         array.indexOf();
+
+         //Nối bảng bằng chuỗi
+         //array.join();
+         let noibang = array.join("-")
+         console.log(noibang);
+
+         
+
+
+
+
+
+
+        console.log(array);
+        
+        
+        
+        
+    </script>
+    
+</body>
+</html>

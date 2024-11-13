@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let array = [];
+        for (let i = 0; i < 10; i++) {
+            let Number = +prompt("Nhập số nguyên thứ" + (i + 1) + ":");
+            array.push(Number);
+        }
+        console.log(array);
+
+        let num = prompt("Nhập số bất kì để thực hiện thao tác tiếp theo")
+        if (num == "1") {
+            console.log("In ra các phần tử của mảng :", array.join(";"));
+        } else if (num == "2") {
+            let chia5 =[];
+            for (let i=0;i<array.length;i++){
+                if (array[i]%5==0){
+                    chia5.push(array[i]);
+                }
+            }
+    
+            console.log("Các số chia hết cho 5 là :" ,chia5);
+
+        } else if (num == "3") {
+
+        } else if (num == "4") {
+            let sum = 0;
+            for (let i = 0; i < array.length; i++) {
+                sum += array[i];
+            }
+            console.log(sum); 
+        } else if (num=="5"){
+            console.log("Thoát và dừng chương trình");
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>
